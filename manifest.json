@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Nizarios WA Direct",
+  "version": "1.0",
+  "description": "Right-click any phone number and open WhatsApp instantly",
+  "permissions": ["contextMenus"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icons/icon48.png"
+  }
+}
